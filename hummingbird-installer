@@ -48,7 +48,7 @@ grub2:
 EOT
 
 COPY <<EOT /usr/share/anaconda/interactive-defaults.ks
-bootc --source-imgref containers-storage:quay.io/hummingbird-community/bootc-os:latest
+bootc --source-imgref containers-storage:quay.io/hummingbird-community/os-minimal:latest
 EOT
 
 RUN echo "install:x:0:0:root:/root:/usr/libexec/anaconda/run-anaconda" >> /etc/passwd && \

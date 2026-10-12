@@ -1,4 +1,4 @@
-FROM quay.io/hummingbird-community/bootc-os:latest
+FROM quay.io/hummingbird-community/os-minimal:latest
 
 ARG TARGETARCH
 
